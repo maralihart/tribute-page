@@ -1,11 +1,11 @@
 :root {
-    --primary: blue;
-    --secondary: red;
-    --hidden: grey;
+    --primary: black;
+    --secondary: rgb(1, 116, 145);
+    --hidden: rgb(104, 104, 104);
     --background: rgb(245, 186, 215);
     
-    --main-font: monospace;
-    --body-font: sans-serif;
+    --main-font: 'Fjalla One', serif;
+    --body-font: 'Raleway', sans-serif;
 }
 
 main {
@@ -13,6 +13,7 @@ main {
     display: block-inline;
     justify-content: center;
     font-family: var(--body-font);
+    color: var(--primary);
 }
 
 header, footer {
@@ -29,7 +30,7 @@ header {
 #title {
     font-family: var(--main-font);
     text-shadow: 2px 2px white;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 footer {
